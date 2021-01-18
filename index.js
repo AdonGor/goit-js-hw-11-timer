@@ -35,7 +35,7 @@ const refs = {
     timeFinish(time) {
       if (time < 0) {
         clearInterval(this.setInt);
-        refs.timerFace.textContent = "Finish";
+        return refs.timerFace.textContent = "Finish";
       }
     }
   };
